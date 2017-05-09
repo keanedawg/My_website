@@ -4,7 +4,7 @@ Password: {{input type="password" value=password}}
 
 {{#if session.isAuthenticated}}
 You are Logged In.
-<button {{action "signOut" username password}}>Log Out</button>
+<button {{action "signOut"}}>Log Out</button>
 {{else}}
 
 {{/if}}
