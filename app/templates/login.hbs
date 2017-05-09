@@ -1,0 +1,12 @@
+Username: {{input type="text" value=username}}
+Password: {{input type="password" value=password}}
+<button {{action "signIn" username password}}>Login</button>
+
+{{#if session.isAuthenticated}}
+You are Logged In.
+<button {{action "signOut" username password}}>Log Out</button>
+{{else}}
+
+{{/if}}
+
+{{outlet}}
