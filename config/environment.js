@@ -8,13 +8,13 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'auto',
     firebase: {
-      apiKey: 'xyz',
-      authDomain: 'YOUR-FIREBASE-APP.firebaseapp.com',
-      databaseURL: 'https://YOUR-FIREBASE-APP.firebaseio.com',
-      storageBucket: 'YOUR-FIREBASE-APP.appspot.com',
+      apiKey: 'AIzaSyA1zewqFzPqf6M_Y0g15CMJSDqDavTbk8I',
+      authDomain: 'cameronfife-f53b7.firebaseapp.com',
+      databaseURL: 'https://cameronfife-f53b7.firebaseio.com/',
+      storageBucket: 'cameronfife-f53b7.appspot.com',
     },
     torii: {
-      sessionNameService: 'session'
+      sessionServiceName: 'session'
     },
     EmberENV: {
       FEATURES: {
