@@ -2,6 +2,8 @@
 
 This is my personal website.
 
+You can see it runnning [here](https://cameronfife-f53b7.firebaseapp.com)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
