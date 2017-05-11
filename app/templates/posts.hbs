@@ -13,7 +13,7 @@
     {{input value=title placeholder="Title"}}
   </li>
   <li>
-    {{textarea value=content placeholder="Body"}}
+    {{textarea value=body placeholder="Body"}}
   </li>
   <li>
     <button {{action "publishPost"}}>Publish</button>
@@ -24,6 +24,6 @@
     <h2>posts here</h2>
 {{#each model as |post|}}
   <div>{{post.title}}</div>
-  <div>{{post.content}}</div>
+  <div>{{post.body}}</div>
 {{/each}}
 </section>
