@@ -6,8 +6,7 @@ import DS from 'ember-data';
 export default DS.Model.extend({
   title: DS.attr('string'),
   body: DS.attr('string'),
-  content: DS.attr('string'),
   key: DS.attr('string'),
-  timestamp: DS.attr('number'),
+  date: DS.attr('date'),
   isLocked: DS.attr('boolean')
 });
