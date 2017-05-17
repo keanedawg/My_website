@@ -1,1 +1,8 @@
+{{#if session.isAuthenticated}}
+You are logged in
+{{else}}
+<p>Are you me? {{#link-to 'login'}} login{{/link-to}}</p>
+{{/if}}
+
+
 {{outlet}}
