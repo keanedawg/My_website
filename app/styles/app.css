@@ -1,0 +1,9 @@
+body {
+  background-color: #92a8d1;
+}
+
+#header-title-text {
+  color: white;
+  font-family: courier;
+  font-size: 50px;
+}
