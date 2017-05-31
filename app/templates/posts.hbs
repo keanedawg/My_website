@@ -1,14 +1,8 @@
 
-
-{{outlet}}
-
-
 <div id="Links">
   <h1 id="blog-header-title">My Blog</h1>
   <p>{{#link-to 'welcome'}} See about me{{/link-to}}</p>
-
-{{outlet}}
-
+  {{outlet}}
   {{#if session.isAuthenticated}}
   <h2>New Post</h2>
   <ul class="post-publish">
