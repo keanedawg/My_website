@@ -1,25 +1,27 @@
-<h1>My Blog</h1>
 
-<p>{{#link-to 'welcome'}} See about me{{/link-to}}</p>
 
 {{outlet}}
 
 
+<div id="Links">
+  <h1 id="blog-header-title">My Blog</h1>
+  <p>{{#link-to 'welcome'}} See about me{{/link-to}}</p>
 
-{{#if session.isAuthenticated}}
-<h2>New Post</h2>
-<ul class="post-publish">
-  <li>
-    {{input value=title placeholder="Title"}}
-  </li>
-  <li>
-    {{textarea value=body placeholder="Body"}}
-  </li>
-  <li>
-    <button {{action "publishPost"}}>Publish</button>
-  </li>
-</ul>
-{{/if}}
+  {{#if session.isAuthenticated}}
+  <h2>New Post</h2>
+  <ul class="post-publish">
+    <li>
+      {{input value=title placeholder="Title"}}
+    </li>
+    <li>
+      {{textarea value=body placeholder="Body"}}
+    </li>
+    <li>
+      <button {{action "publishPost"}}>Publish</button>
+    </li>
+  </ul>
+  {{/if}}
+</div>
 
 <section>
     <h2>posts here</h2>

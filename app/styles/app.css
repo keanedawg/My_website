@@ -9,6 +9,14 @@ body {
     font-family: helvetica;
   }
 
+  #blog-header-title {
+    color: grey ;
+    font-family: arial;
+    font-size: 30px;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
   #header-title-text {
     color: grey ;
     font-family: arial;
@@ -18,8 +26,9 @@ body {
   }
 
   #Links {
-    background-color: #fefbd8;
+    background-color: white;
     border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
     margin: auto;
     margin-top: 10%;
     padding: 10px 10px 30px 10px;
@@ -36,17 +45,27 @@ body {
     font-family: helvetica;
   }
 
-  #header-title-text {
+  #blog-header-title {
     color: grey ;
     font-family: arial;
     font-size: 50px;
     margin-bottom: 10%;
-    text-align: center;
+    margin-left: 5%;
+    text-align: left;
   }
 
+   #header-title-text {
+      color: grey ;
+      font-family: arial;
+      font-size: 50px;
+      margin-bottom: 10%;
+      text-align: center;
+    }
+
   #Links {
-    background-color: #fefbd8;
+    background-color: white;
     border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
     margin: auto;
     margin-top: 10%;
     padding: 10px 10px 30px 10px;
