@@ -9,7 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('index', { path: '/' }); // This is usually automatic if path undeclared, but declared here to support /index below
   this.route('posts', function() {
-    this.route('view');
+    this.route('view', {path: '/view/:post_id'});
   });
   this.route('welcome');
   this.route('login');
