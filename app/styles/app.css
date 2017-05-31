@@ -2,6 +2,18 @@ body {
   background-color: #92a8e1;
 }
 
+#titles-list {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.title-list-item {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  text-align: left;
+}
+
 @media (max-width: 660px) {
   .linkText {
     display: block-inline;
