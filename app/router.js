@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('posts', function() {});
   this.route('welcome');
   this.route('login');
+  this.route('write');
 });
 
 export default Router;
