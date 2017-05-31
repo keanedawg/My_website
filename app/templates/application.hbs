@@ -1,7 +1,10 @@
 {{#if session.isAuthenticated}}
-You are logged in <button {{action "signOut"}}>Log Out</button>
+You are Logged In.
+<button {{action "signOut"}}>Log Out</button>
 {{else}}
-<p>Are you me? {{#link-to 'login'}} login{{/link-to}}</p>
+Username: {{input type="text" value=username}}
+Password: {{input type="password" value=password}}
+<button {{action "signIn" username password}}>Login</button>
 {{/if}}
 
 
