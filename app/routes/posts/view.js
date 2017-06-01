@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
-var siteId;
+var postId;
 
 export default Ember.Route.extend({
     model(params) {
-        siteId = params.site_id;
-        return this.store.findRecord('post', siteId);
+        postId = params.post_id;
+        return this.store.findRecord('post', postId);
     }
 });
