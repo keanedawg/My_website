@@ -2,8 +2,9 @@
 You are Logged In.
 <button {{action "signOut"}}>Log Out</button>
 {{else}}
-Username: {{input type="text" value=username}}
-Password: {{input type="password" value=password}}
+<p class="login-text">Are you me?</p>
+<span class="login-text">Username: {{input type="text" value=username}}
+Password: {{input type="password" value=password}}</span>
 <button {{action "signIn" username password}}>Login</button>
 {{/if}}
 
