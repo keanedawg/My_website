@@ -5,12 +5,20 @@
       {{input value=title placeholder="Title"}}
     </li>
     <li>
-      {{textarea value=body placeholder="Body"}}
+      {{!textarea value=body placeholder="Body"}}
     </li>
     <li>
       <button {{action "publishPost"}}>Publish</button>
     </li>
   </ul>
 {{/if}}
+
+{{froala-editor content=model.someProp}}
+
+
+{{#froala-content}}
+  {{someFroalaContent}}
+{{/froala-content}}
+
 
 {{outlet}}
