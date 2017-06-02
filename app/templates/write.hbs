@@ -1,15 +1,25 @@
-{{#if session.isAuthenticated}}
-  <h2>New Post</h2>
-  <ul class="post-publish">
-    <li>
-      {{input value=title placeholder="Title"}}
-    </li>
-    <li>
-      {{textarea value=body placeholder="Body"}}
-    </li>
-    <li>
-      <button {{action "publishPost"}}>Publish</button>
-    </li>
-  </ul>
-{{/if}}
+<div id="Links">
+  {{#if session.isAuthenticated}}
+    <h2>New Post</h2>
+    <ul class="post-publish">
+      <li>
+        {{input value=title placeholder="Title"}}
+      </li>
+      <li>
+        {{textarea value=body placeholder="Body"}}
+      </li>
+      <li>
+        <button {{action "publishPost"}}>Publish</button>
+      </li>
+    </ul>
+    <div style="width:80%;margin:auto;">
+    {{froala-editor
+    value=body 
+    content=myProperty
+    update=(action (mut myProperty))
+    options=(hash heightMin=200)
+    }}
+    </div>
+  {{/if}}
+</div>
 {{outlet}}
