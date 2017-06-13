@@ -2,7 +2,7 @@
 
 This is my personal website.
 
-You can see it runnning [here](https://cameronfife-f53b7.firebaseapp.com)
+You can see it runnning [here](cameronjfife.com)
 
 ## Prerequisites
 
