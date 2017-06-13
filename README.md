@@ -2,7 +2,7 @@
 
 This is my personal website.
 
-You can see it runnning [here](cameronjfife.com)
+You can see it runnning [here](www.cameronjfife.com)
 
 ## Prerequisites
 
