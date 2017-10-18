@@ -11,12 +11,10 @@ export default Ember.Controller.extend({
       newPost.save();
     },
     setAndSave: function(html) {
-      // Triggers save every 3000 ms as long as user is changing post
-      // Amount of ms can be altered below
+      // // Triggers save every 3000 ms as long as user is changing post
+      // // Amount of ms can be altered below
 
       console.log(html); // Contains the HTML from the editor
-      var content = this.get('model.body')
-      console.log(content);
     }
   }
 });
