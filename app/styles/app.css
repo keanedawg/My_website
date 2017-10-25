@@ -15,9 +15,16 @@ body {
 }
 
 .title-list-item {
-  color: grey;
+  color: #2B0C0C;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
+  text-align: left;
+}
+
+.project-description {
+  color: #2B0C0C;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
   text-align: left;
 }
 
